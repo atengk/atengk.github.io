@@ -42,8 +42,8 @@ features:
     linkText: 探索前端工程
 
   - icon:
-      src: /icons/admin.svg
-      alt: Admin Icon
+      src: /icons/scaffold.svg
+      alt: Scaffold Icon
     title: 工程化框架（建设中...）
     details: 🧱 RuoYi-Vue-Pro <br> ☁️ yudao-cloud <br> 🖥️ yudao-ui-admin-vue3
     link: https://atengk.github.io/scaffold/
