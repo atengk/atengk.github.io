@@ -40,7 +40,6 @@
 #忽略根目录下的文件
 /temp/
 /logs/
-/pnpm-lock.yaml
 
 #忽略特定文件夹名
 tmp/
