@@ -22,10 +22,13 @@ export default defineConfig({
                 link: 'http://wpa.qq.com/msgrd?v=3&uin=2385569970&Menu=yes'
             }
         ],
-        /*footer: {
-            message: '🚀 持续学习 · 持续输出 · 持续成长',
-            copyright: 'Copyright © 2026 阿腾'
-        }*/
+        notFound: {
+            code: '404',
+            title: '页面未找到',
+            quote: '您访问的页面不存在',
+            linkLabel: '返回首页',
+            linkText: '点击这里返回主页'
+        },
     },
     head: [
         ['link', {rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg'}]
