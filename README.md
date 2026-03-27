@@ -17,12 +17,12 @@
 
 ### 🌱 后端技术网站
 **内容**: Spring Boot / Spring Cloud, Spark / Flink, Spring AI  
-[查看后端技术](https://atengk.github.io/dev/)
+[查看后端技术](https://atengk.github.io/java/)
 
 ### 🎨 前端技术网站
 **内容**: TypeScript, Vue, TailwindCSS + Sass  
-[探索前端工程](https://atengk.github.io/Ateng-Vue/)
+[探索前端工程](https://atengk.github.io/vue/)
 
-### 🧱 工程化框架（建设中...）
+### 🧱 工程化框架技术网站（建设中...）
 **内容**: RuoYi-Vue-Pro, yudao-cloud, yudao-ui-admin-vue3  
-[查看框架实践](https://atengk.github.io/scaffold/)
+[查看框架实践](https://atengk.github.io/project/)
