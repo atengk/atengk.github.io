@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "阿腾技术网站"
   text: "Ateng Docs"
-  tagline: 🚀 专注 Linux / Java / Vue 的全栈技术沉淀与实践
+  tagline: ⚡ 专注 Linux / Java / Vue 的全栈技术沉淀与实践
   image:
     src: /hero.svg
     alt: 技术图

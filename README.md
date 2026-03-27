@@ -1,11 +1,11 @@
 # 阿腾技术网站 (Ateng Docs)
 
-🚀 **专注 Linux / Java / Vue 的全栈技术沉淀与实践**
+⚡ **专注 Linux / Java / Vue 的全栈技术沉淀与实践**
 
 ## 快速开始
 
-- [快速开始](https://atengk.github.io/dev/)
-- [在 GitHub 上查看](https://github.com/atengk)
+- [🚀 快速开始](https://atengk.github.io/dev/)
+- [🌟 GitHub](https://github.com/atengk)
 
 ---
 
