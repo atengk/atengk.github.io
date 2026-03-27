@@ -44,7 +44,7 @@ features:
   - icon:
       src: /icons/project.svg
       alt: Project Icon
-    title: 工程化框架技术网站（建设中...）
+    title: 工程化框架技术网站
     details: 🧱 RuoYi-Vue-Pro <br> ☁️ yudao-cloud <br> 🖥️ yudao-ui-admin-vue3
     link: https://atengk.github.io/project/
     linkText: 查看框架实践
