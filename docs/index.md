@@ -10,10 +10,10 @@ hero:
     alt: 技术图
   actions:
     - theme: brand
-      text: 快速开始
+      text: 🚀 快速开始
       link: https://atengk.github.io/java/
     - theme: alt
-      text: 在 GitHub 上查看
+      text: 🌟 GitHub
       link: https://github.com/atengk
 
 features:
