@@ -1,0 +1,98 @@
+/* =========================
+   SocialLinks Tooltip
+   ========================= */
+
+.VPSocialLinks a {
+    position: relative;
+}
+
+/* tooltip */
+.VPSocialLinks a::after {
+    content: attr(aria-label);
+    position: absolute;
+    left: 50%;
+    bottom: -40px;
+    transform: translateX(-50%) translateY(6px);
+
+    padding: 6px 10px;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    white-space: nowrap;
+
+    color: var(--vp-c-text-1);
+
+    /* 毛玻璃核心 */
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+
+    border: 1px solid var(--vp-c-divider);
+    border-radius: 8px;
+
+    /* 阴影优化 */
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+
+    opacity: 0;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    pointer-events: none;
+}
+
+/* 深色模式适配 */
+.dark .VPSocialLinks a::after {
+    background: rgba(30, 30, 30, 0.6);
+}
+
+/* 小箭头（更细腻） */
+.VPSocialLinks a::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    transform: translateX(-50%) translateY(6px);
+
+    width: 8px;
+    height: 8px;
+
+    background: var(--vp-c-bg-soft);
+
+    border-left: 1px solid var(--vp-c-divider);
+    border-top: 1px solid var(--vp-c-divider);
+
+    rotate: 45deg;
+
+    opacity: 0;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* hover 动效（丝滑） */
+.VPSocialLinks a:hover::after,
+.VPSocialLinks a:hover::before {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+}
+
+/* 图标轻微上浮 */
+.VPSocialLinks a:hover {
+    transform: translateY(-2px);
+    transition: transform 0.2s ease;
+}
+
+/* 点击反馈 */
+.VPSocialLinks a:active {
+    transform: translateY(0);
+}
+
+/* =========================
+   移动端优化
+   ========================= */
+
+@media (hover: none) {
+    .VPSocialLinks a::after,
+    .VPSocialLinks a::before {
+        display: none;
+    }
+
+    .VPSocialLinks a:hover {
+        transform: none;
+    }
+}
