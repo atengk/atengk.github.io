@@ -22,7 +22,7 @@ features:
       alt: Linux Icon
     title: 运维技术网站
     details: 🐧 Linux <br> 🐳 Docker <br> ☸️ Kubernetes <br>  
-    link: https://atengk.github.io/ops/
+    link: https://atengk.github.io/linux/
     linkText: 进入运维文档
 
   - icon:

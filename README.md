@@ -13,7 +13,7 @@
 
 ### 🐧 运维技术网站
 **内容**: Linux, Docker, Kubernetes  
-[进入运维文档](https://atengk.github.io/ops/)
+[进入运维文档](https://atengk.github.io/linux/)
 
 ### 🌱 后端技术网站
 **内容**: Spring Boot / Spring Cloud, Spark / Flink, Spring AI  
