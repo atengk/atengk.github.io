@@ -4,7 +4,7 @@
 
 ## 快速开始
 
-- [🚀 快速开始](https://atengk.github.io/dev/)
+- [🚀 快速开始](https://atengk.github.io/java/)
 - [🌟 GitHub](https://github.com/atengk)
 
 ---
