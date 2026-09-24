@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "阿腾技术网站"
   text: "Ateng Docs"
-  tagline: ⚡ 专注 Linux / Java / Vue 的全栈技术沉淀与实践
+  tagline: ⚡ 专注 Linux / Java / Vue / Flutter / AI 的全栈技术沉淀与实践
   image:
     src: /hero.svg
     alt: 技术图
@@ -48,4 +48,28 @@ features:
     details: 🧱 RuoYi-Vue-Plus <br> ☁️ RuoYi-Cloud-Plus <br> 🖥️ RuoYi-Plus-UI
     link: https://atengk.github.io/project/
     linkText: 查看框架实践
+
+  - icon:
+      src: /icons/ai.svg
+      alt: AI Icon
+    title: AI 技术网站
+    details: 🤖 AI Agent <br> 🛠️ Skills 技能库 <br> 🔌 MCP 协议生态
+    link: https://atengk.github.io/Ateng-AI/
+    linkText: 探索 AI 智能体
+
+  - icon:
+      src: /icons/flutter.svg
+      alt: Flutter Icon
+    title: 跨平台技术网站
+    details: 💙 Flutter 3.x <br> 🎯 Dart 跨端生态 <br> 📱 多平台自动化构建
+    link: https://atengk.github.io/Ateng-Flutter/
+    linkText: 体验跨端应用
+
+  - icon:
+      src: /icons/tools.svg
+      alt: Tools Icon
+    title: 在线工具箱
+    details: 🛠️ 实用开发辅助 <br> 🔐 密码与加密散列 <br> 🌐 网络格式转换
+    link: https://atengk.github.io/tools/
+    linkText: 打开实用工具
 ---

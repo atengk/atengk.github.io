@@ -1,0 +1,51 @@
+<svg class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="200" height="200">
+    <defs>
+        <linearGradient id="aiGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#8B5CF6"/>
+            <stop offset="50%" stop-color="#6366F1"/>
+            <stop offset="100%" stop-color="#06B6D4"/>
+        </linearGradient>
+        <linearGradient id="aiGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#C084FC"/>
+            <stop offset="100%" stop-color="#38BDF8"/>
+        </linearGradient>
+    </defs>
+    <!-- 芯片外框 -->
+    <rect x="200" y="200" width="624" height="624" rx="140" fill="url(#aiGrad)"/>
+    <rect x="250" y="250" width="524" height="524" rx="100" fill="#0F172A"/>
+
+    <!-- 顶部引脚 -->
+    <rect x="340" y="110" width="36" height="90" rx="18" fill="url(#aiGrad)"/>
+    <rect x="494" y="110" width="36" height="90" rx="18" fill="url(#aiGrad)"/>
+    <rect x="648" y="110" width="36" height="90" rx="18" fill="url(#aiGrad)"/>
+    <!-- 底部引脚 -->
+    <rect x="340" y="824" width="36" height="90" rx="18" fill="url(#aiGrad)"/>
+    <rect x="494" y="824" width="36" height="90" rx="18" fill="url(#aiGrad)"/>
+    <rect x="648" y="824" width="36" height="90" rx="18" fill="url(#aiGrad)"/>
+    <!-- 左侧引脚 -->
+    <rect x="110" y="340" width="90" height="36" rx="18" fill="url(#aiGrad)"/>
+    <rect x="110" y="494" width="90" height="36" rx="18" fill="url(#aiGrad)"/>
+    <rect x="110" y="648" width="90" height="36" rx="18" fill="url(#aiGrad)"/>
+    <!-- 右侧引脚 -->
+    <rect x="824" y="340" width="90" height="36" rx="18" fill="url(#aiGrad)"/>
+    <rect x="824" y="494" width="90" height="36" rx="18" fill="url(#aiGrad)"/>
+    <rect x="824" y="648" width="90" height="36" rx="18" fill="url(#aiGrad)"/>
+
+    <!-- 核心 AI 字符与电路 -->
+    <!-- 字母 A -->
+    <path d="M420 390 L355 635" stroke="url(#aiGlow)" stroke-width="44" stroke-linecap="round"/>
+    <path d="M420 390 L485 635" stroke="url(#aiGlow)" stroke-width="44" stroke-linecap="round"/>
+    <line x1="380" y1="555" x2="460" y2="555" stroke="url(#aiGlow)" stroke-width="36" stroke-linecap="round"/>
+
+    <!-- 字母 I -->
+    <line x1="585" y1="390" x2="585" y2="635" stroke="url(#aiGlow)" stroke-width="44" stroke-linecap="round"/>
+    <line x1="545" y1="390" x2="625" y2="390" stroke="url(#aiGlow)" stroke-width="36" stroke-linecap="round"/>
+    <line x1="545" y1="635" x2="625" y2="635" stroke="url(#aiGlow)" stroke-width="36" stroke-linecap="round"/>
+
+    <!-- 装饰星芒与节点 -->
+    <path d="M700 320 Q700 350 670 350 Q700 350 700 380 Q700 350 730 350 Q700 350 700 320 Z" fill="#38BDF8"/>
+    <circle cx="330" cy="330" r="16" fill="#8B5CF6"/>
+    <line x1="330" y1="330" x2="375" y2="375" stroke="#8B5CF6" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="694" cy="694" r="16" fill="#06B6D4"/>
+    <line x1="694" y1="694" x2="649" y2="649" stroke="#06B6D4" stroke-width="12" stroke-linecap="round"/>
+</svg>
