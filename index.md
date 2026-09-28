@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "阿腾技术网站"
   text: "Ateng Docs"
-  tagline: ⚡ 专注 Linux / Java / Vue / Flutter / AI 的全栈技术沉淀与实践
+  tagline: ⚡ 专注 Linux / Java / Vue / Flutter / AI Agent 的全栈技术沉淀与实践
   image:
     src: /hero.svg
     alt: 技术图
@@ -52,9 +52,9 @@ features:
   - icon:
       src: /icons/ai.svg
       alt: AI Icon
-    title: AI 技术网站
+    title: AI Agent 技术网站
     details: 🤖 AI Agent <br> 🛠️ Skills 技能库 <br> 🔌 MCP 协议生态
-    link: https://atengk.github.io/Ateng-AI/
+    link: https://atengk.github.io/Ateng-Agent/
     linkText: 探索 AI 智能体
 
   - icon:
@@ -62,8 +62,8 @@ features:
       alt: Flutter Icon
     title: 跨平台技术网站
     details: 💙 Flutter 3.x <br> 🎯 Dart 跨端生态 <br> 📱 多平台自动化构建
-    link: https://atengk.github.io/Ateng-Flutter/
-    linkText: 体验跨端应用
+    link: https://github.com/atengk/Ateng-Flutter
+    linkText: 查看 GitHub 仓库
 
   - icon:
       src: /icons/tools.svg
@@ -72,4 +72,12 @@ features:
     details: 🛠️ 实用开发辅助 <br> 🔐 密码与加密散列 <br> 🌐 网络格式转换
     link: https://atengk.github.io/tools/
     linkText: 打开实用工具
+
+  - icon:
+      src: /icons/zenith.svg
+      alt: Zenith Icon
+    title: Zenith 旗舰文档模板
+    details: 💎 现代化顶配模板 <br> ⚡ 沉浸阅读与命令中心 <br> 📦 Twoslash + PWA 离线
+    link: https://atengk.github.io/vitepress-zenith/
+    linkText: 体验旗舰模板
 ---
