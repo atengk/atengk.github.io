@@ -22,7 +22,7 @@ features:
       alt: Matrix Icon
     title: 全栈技术选型矩阵
     details: 🗺️ 全端全平台选型 <br> 🧭 架构决策与权衡 <br> 💡 工业级生态基线
-    link: https://github.com/atengk/fullstack-matrix
+    link: https://atengk.github.io/fullstack-matrix/
     linkText: 查看决策蓝图
 
   - icon:
