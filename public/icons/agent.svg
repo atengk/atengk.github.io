@@ -1,0 +1,98 @@
+<svg class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="200" height="200">
+    <defs>
+        <!-- 渐变体系 -->
+        <linearGradient id="agentGradPrimary" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#06B6D4"/>
+            <stop offset="45%" stop-color="#6366F1"/>
+            <stop offset="100%" stop-color="#A855F7"/>
+        </linearGradient>
+        <linearGradient id="agentGradAccent" x1="0%" y1="100%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#38BDF8"/>
+            <stop offset="100%" stop-color="#818CF8"/>
+        </linearGradient>
+        <linearGradient id="agentGradWarm" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#F43F5E"/>
+            <stop offset="100%" stop-color="#A855F7"/>
+        </linearGradient>
+        <linearGradient id="agentGradVisor" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#06B6D4"/>
+            <stop offset="50%" stop-color="#38BDF8"/>
+            <stop offset="100%" stop-color="#818CF8"/>
+        </linearGradient>
+        <linearGradient id="agentGradDark" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#1E1B4B"/>
+            <stop offset="100%" stop-color="#0F172A"/>
+        </linearGradient>
+        <radialGradient id="agentAura" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#6366F1" stop-opacity="0.35"/>
+            <stop offset="60%" stop-color="#06B6D4" stop-opacity="0.15"/>
+            <stop offset="100%" stop-color="#0F172A" stop-opacity="0"/>
+        </radialGradient>
+        <filter id="agentGlow" x="-20%" y="-20%" width="140%" height="140%">
+            <feGaussianBlur stdDeviation="10" result="blur"/>
+            <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+        </filter>
+    </defs>
+
+    <!-- 背景科技光晕 -->
+    <circle cx="512" cy="512" r="460" fill="url(#agentAura)"/>
+
+    <!-- 外围多智能体协同运行轨道环 (Multi-Agent Orbit Rings) -->
+    <circle cx="512" cy="512" r="430" fill="none" stroke="url(#agentGradPrimary)" stroke-width="4" stroke-dasharray="16 20" opacity="0.4"/>
+    <g transform="rotate(-25 512 512)">
+        <ellipse cx="512" cy="512" rx="440" ry="200" fill="none" stroke="url(#agentGradAccent)" stroke-width="5" stroke-dasharray="24 16" opacity="0.6"/>
+        <!-- 轨道卫星节点 1: Skills 技能库 -->
+        <circle cx="952" cy="512" r="16" fill="#38BDF8" filter="url(#agentGlow)"/>
+        <!-- 轨道卫星节点 2: MCP 统一协议 -->
+        <circle cx="72" cy="512" r="16" fill="#A855F7" filter="url(#agentGlow)"/>
+    </g>
+    <g transform="rotate(35 512 512)">
+        <ellipse cx="512" cy="512" rx="420" ry="180" fill="none" stroke="url(#agentGradPrimary)" stroke-width="3" stroke-dasharray="12 16" opacity="0.45"/>
+        <!-- 轨道卫星节点 3: Antigravity / Codex -->
+        <circle cx="932" cy="512" r="12" fill="#818CF8"/>
+        <!-- 轨道卫星节点 4: Claude Code -->
+        <circle cx="92" cy="512" r="12" fill="#06B6D4"/>
+    </g>
+
+    <!-- 核心外框：六边形微架构与装甲边缘 (Agent Core Chassis) -->
+    <polygon points="512,120 830,280 830,660 512,820 194,660 194,280" fill="url(#agentGradDark)" stroke="url(#agentGradPrimary)" stroke-width="12" opacity="0.95"/>
+    <polygon points="512,150 800,295 800,645 512,790 224,645 224,295" fill="none" stroke="url(#agentGradAccent)" stroke-width="3" stroke-dasharray="10 8" opacity="0.5"/>
+
+    <!-- 智能体头部与天线感知中枢 (Sensory Antenna & Neural Node) -->
+    <path d="M512 120 L512 210" stroke="url(#agentGradAccent)" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="512" cy="120" r="18" fill="#F43F5E" filter="url(#agentGlow)"/>
+    <circle cx="512" cy="120" r="8" fill="#FFFFFF"/>
+
+    <!-- 侧翼电路插槽 (MCP & Interface Connectors) -->
+    <rect x="154" y="420" width="40" height="16" rx="8" fill="#38BDF8"/>
+    <rect x="154" y="480" width="40" height="16" rx="8" fill="#6366F1"/>
+    <rect x="154" y="540" width="40" height="16" rx="8" fill="#A855F7"/>
+    <rect x="830" y="420" width="40" height="16" rx="8" fill="#38BDF8"/>
+    <rect x="830" y="480" width="40" height="16" rx="8" fill="#6366F1"/>
+    <rect x="830" y="540" width="40" height="16" rx="8" fill="#A855F7"/>
+
+    <!-- 智能体面部极客视窗 (Cybernetic Visor) -->
+    <g filter="url(#agentGlow)">
+        <path d="M300 370 L724 370 Q754 370 744 410 L704 510 Q690 530 660 530 L364 530 Q334 530 320 510 L280 410 Q270 370 300 370 Z" fill="#090D16" stroke="url(#agentGradVisor)" stroke-width="8"/>
+        <!-- 视窗内部扫描动态光束 (HUD Data Stream) -->
+        <path d="M340 450 L684 450" stroke="url(#agentGradVisor)" stroke-width="14" stroke-linecap="round"/>
+        <circle cx="440" cy="450" r="10" fill="#FFFFFF"/>
+        <circle cx="584" cy="450" r="10" fill="#FFFFFF"/>
+    </g>
+
+    <!-- 智能体核心能量结晶: 标志性科技 "A" 结合智能体神经图腾 -->
+    <g transform="translate(0, 15)">
+        <!-- 字母 A 左翼 -->
+        <path d="M512 550 L390 730" stroke="url(#agentGradAccent)" stroke-width="26" stroke-linecap="round"/>
+        <!-- 字母 A 右翼 -->
+        <path d="M512 550 L634 730" stroke="url(#agentGradAccent)" stroke-width="26" stroke-linecap="round"/>
+        <!-- 字母 A 中枢连接横梁 (智能算力桥接) -->
+        <line x1="435" y1="675" x2="589" y2="675" stroke="#38BDF8" stroke-width="20" stroke-linecap="round" filter="url(#agentGlow)"/>
+        <!-- 顶尖神经核 (Top Apex Spark) -->
+        <circle cx="512" cy="550" r="22" fill="url(#agentGradWarm)" filter="url(#agentGlow)"/>
+        <circle cx="512" cy="550" r="10" fill="#FFFFFF"/>
+    </g>
+
+    <!-- 底部基底座与数据引脚 -->
+    <path d="M400 820 L400 900 M474 820 L474 920 M550 820 L550 920 M624 820 L624 900" stroke="url(#agentGradPrimary)" stroke-width="12" stroke-linecap="round"/>
+</svg>

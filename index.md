@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "阿腾技术网站"
   text: "Ateng Docs"
-  tagline: ⚡ 专注 Linux / Java / Vue / Flutter / AI Agent 的全栈技术沉淀与实践
+  tagline: ⚡ 从架构决策到工程落地 · 构筑企业级全栈与 AI Agent 智能化技术基座
   image:
     src: /hero.svg
     alt: 技术图
@@ -17,6 +17,14 @@ hero:
       link: https://github.com/atengk
 
 features:
+  - icon:
+      src: /icons/matrix.svg
+      alt: Matrix Icon
+    title: 全栈技术选型矩阵
+    details: 🗺️ 全端全平台选型 <br> 🧭 架构决策与权衡 <br> 💡 工业级生态基线
+    link: https://github.com/atengk/fullstack-matrix
+    linkText: 查看决策蓝图
+
   - icon:
       src: /icons/linux.svg
       alt: Linux Icon
@@ -50,20 +58,12 @@ features:
     linkText: 查看框架实践
 
   - icon:
-      src: /icons/ai.svg
-      alt: AI Icon
+      src: /icons/agent.svg
+      alt: Agent Icon
     title: AI Agent 技术网站
     details: 🤖 AI Agent <br> 🛠️ Skills 技能库 <br> 🔌 MCP 协议生态
     link: https://atengk.github.io/Ateng-Agent/
     linkText: 探索 AI 智能体
-
-  - icon:
-      src: /icons/flutter.svg
-      alt: Flutter Icon
-    title: 跨平台技术网站
-    details: 💙 Flutter 3.x <br> 🎯 Dart 跨端生态 <br> 📱 多平台自动化构建
-    link: https://github.com/atengk/Ateng-Flutter
-    linkText: 查看 GitHub 仓库
 
   - icon:
       src: /icons/tools.svg
@@ -75,9 +75,9 @@ features:
 
   - icon:
       src: /icons/zenith.svg
-      alt: Zenith Icon
-    title: Zenith 旗舰文档模板
-    details: 💎 现代化顶配模板 <br> ⚡ 沉浸阅读与命令中心 <br> 📦 Twoslash + PWA 离线
+      alt: VitePress Zenith Icon
+    title: VitePress Zenith 旗舰模板
+    details: ⚡ 顶配 VitePress 架构 <br> 💎 沉浸阅读与命令中心 <br> 📦 Twoslash + PWA 离线
     link: https://atengk.github.io/vitepress-zenith/
     linkText: 体验旗舰模板
 ---
