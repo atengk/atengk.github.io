@@ -1,92 +1,17 @@
 <svg class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="200" height="200">
     <defs>
-        <!-- 品牌渐变系统：科技极客蓝 -->
-        <linearGradient id="toolsGradPrimary" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stop-color="#0284C7"/>
-            <stop offset="40%" stop-color="#2563EB"/>
-            <stop offset="100%" stop-color="#4F46E5"/>
+        <linearGradient id="toolsBlueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#2563eb"/>
+            <stop offset="100%" stop-color="#38bdf8"/>
         </linearGradient>
-        <linearGradient id="toolsGradSurface" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stop-color="#38BDF8"/>
-            <stop offset="60%" stop-color="#2563EB"/>
-            <stop offset="100%" stop-color="#1D4ED8"/>
-        </linearGradient>
-        <linearGradient id="toolsGradDark" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stop-color="#1E293B"/>
-            <stop offset="100%" stop-color="#0F172A"/>
-        </linearGradient>
-        <linearGradient id="toolsGradBolt" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stop-color="#FFFFFF"/>
-            <stop offset="60%" stop-color="#F0F9FF"/>
-            <stop offset="100%" stop-color="#BAE6FD"/>
-        </linearGradient>
-        <linearGradient id="toolsGradGlow" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stop-color="#38BDF8"/>
-            <stop offset="100%" stop-color="#60A5FA"/>
-        </linearGradient>
-        <radialGradient id="toolsAura" cx="50%" cy="50%" r="50%">
-            <stop offset="0%" stop-color="#2563EB" stop-opacity="0.32"/>
-            <stop offset="60%" stop-color="#0284C7" stop-opacity="0.12"/>
-            <stop offset="100%" stop-color="#0F172A" stop-opacity="0"/>
-        </radialGradient>
-
-        <!-- 辉光与立体阴影滤镜 -->
-        <filter id="toolsGlow" x="-25%" y="-25%" width="150%" height="150%">
-            <feGaussianBlur stdDeviation="12" result="blur"/>
-            <feComposite in="SourceGraphic" in2="blur" operator="over"/>
-        </filter>
-        <filter id="boltShadow" x="-30%" y="-30%" width="160%" height="160%">
-            <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#1D4ED8" flood-opacity="0.5"/>
-        </filter>
     </defs>
-
-    <!-- 背景科技光晕辐射 -->
-    <circle cx="512" cy="512" r="460" fill="url(#toolsAura)"/>
-
-    <!-- 外围研发效能轨道环与极客刻度 -->
-    <circle cx="512" cy="512" r="440" fill="none" stroke="url(#toolsGradPrimary)" stroke-width="4" stroke-dasharray="14 18" opacity="0.4"/>
-    <circle cx="512" cy="512" r="390" fill="none" stroke="url(#toolsGradGlow)" stroke-width="2" stroke-dasharray="8 12" opacity="0.3"/>
-
-    <!-- 象限指引刻度线 (Compass Ticks) -->
-    <line x1="512" y1="52" x2="512" y2="92" stroke="url(#toolsGradGlow)" stroke-width="8" stroke-linecap="round"/>
-    <line x1="512" y1="932" x2="512" y2="972" stroke="url(#toolsGradGlow)" stroke-width="8" stroke-linecap="round"/>
-    <line x1="52" y1="512" x2="92" y2="512" stroke="url(#toolsGradGlow)" stroke-width="8" stroke-linecap="round"/>
-    <line x1="932" y1="512" x2="972" y2="512" stroke="url(#toolsGradGlow)" stroke-width="8" stroke-linecap="round"/>
-
-    <!-- 卫星辅助节点 (Tool Satellite Nodes) -->
-    <circle cx="200" cy="200" r="10" fill="#38BDF8" opacity="0.8"/>
-    <circle cx="824" cy="200" r="10" fill="#60A5FA" opacity="0.8"/>
-    <circle cx="200" cy="824" r="10" fill="#2563EB" opacity="0.8"/>
-    <circle cx="824" cy="824" r="10" fill="#38BDF8" opacity="0.8"/>
-
-    <!-- 主体工具箱极客底座：圆角多边形外框 (Chassis Frame) -->
-    <rect x="182" y="182" width="660" height="660" rx="170" fill="url(#toolsGradDark)" stroke="url(#toolsGradPrimary)" stroke-width="12" opacity="0.95"/>
-    <rect x="216" y="216" width="592" height="592" rx="146" fill="url(#toolsGradPrimary)" opacity="0.12"/>
-    <rect x="220" y="220" width="584" height="584" rx="140" fill="none" stroke="url(#toolsGradGlow)" stroke-width="3" stroke-dasharray="16 12" opacity="0.55"/>
-
-    <!-- 科技装饰切角与代码括号暗纹 (Code Brackets Motif) -->
-    <path d="M290 380 L250 420 V604 L290 644" fill="none" stroke="url(#toolsGradGlow)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" opacity="0.4"/>
-    <path d="M734 380 L774 420 V604 L734 644" fill="none" stroke="url(#toolsGradGlow)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" opacity="0.4"/>
-
-    <!-- 核心闪电能量徽标基座 (Bolt Radiance Aura) -->
-    <rect x="290" y="290" width="444" height="444" rx="110" fill="url(#toolsGradSurface)" filter="url(#boltShadow)"/>
-    
-    <!-- 内部光影流光折层 (Surface Inset Layer) -->
-    <path d="M400 290 H624 Q734 290 734 400 V624 Q734 734 624 734 L400 290 Z" fill="#FFFFFF" opacity="0.08"/>
-
-    <!-- 标志性极速开发闪电矢量 (Ateng-Tools Official Lightning Core) -->
-    <!-- 对齐官方拓扑比例：M13 10V3L4 14h7v7l9-11h-7z，精细矢量化映射 -->
-    <g filter="url(#toolsGlow)">
-        <path d="M542 470 V320 L332 550 H472 V704 L692 470 H542 Z" 
-              fill="url(#toolsGradBolt)" 
-              stroke="#FFFFFF" 
-              stroke-width="10" 
-              stroke-linejoin="round" 
-              stroke-linecap="round"/>
-    </g>
-
-    <!-- 闪电折角核心能量聚焦点 (Energy Sparks) -->
-    <circle cx="512" cy="512" r="14" fill="#FFFFFF" filter="url(#toolsGlow)"/>
-    <circle cx="332" cy="550" r="8" fill="#38BDF8"/>
-    <circle cx="692" cy="470" r="8" fill="#38BDF8"/>
+    <!-- 纯净科技蓝圆角矩形底座（与 Ateng-Tools 品牌 100% 对齐，零暗角、零模糊） -->
+    <rect x="96" y="96" width="832" height="832" rx="230" fill="url(#toolsBlueGrad)"/>
+    <!-- 纯白锐利极速闪电核心 -->
+    <path d="M552 420 V176 L256 572 H484 V848 L768 420 H552 Z" 
+          fill="#ffffff" 
+          stroke="#ffffff" 
+          stroke-width="12" 
+          stroke-linejoin="round" 
+          stroke-linecap="round"/>
 </svg>

@@ -104,3 +104,14 @@
 .VPFeatures .items {
     justify-content: center;
 }
+
+/* =========================
+   Hero Tagline 排版优化（防止单字落单）
+   ========================= */
+
+@media (min-width: 640px) {
+    .VPHero .tagline {
+        max-width: 100% !important;
+        white-space: normal;
+    }
+}

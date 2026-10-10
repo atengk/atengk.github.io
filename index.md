@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "阿腾技术网站"
   text: "Ateng Docs"
-  tagline: ⚡ 全链路架构决策矩阵 · 企业级全栈与智能体工程基座
+  tagline: ⚡ 全栈架构决策矩阵 · 企业级智能工程基座
   image:
     src: /hero.svg
     alt: 技术图
