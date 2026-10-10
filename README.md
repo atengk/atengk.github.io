@@ -1,4 +1,4 @@
-# 阿腾技术网站 (Ateng Docs)
+# 阿腾技术网站 (Ateng Matrix)
 
 <p align="center">
   <strong>⚡ 全栈架构决策矩阵 · 企业级智能工程基座</strong>
@@ -8,8 +8,14 @@
   <a href="https://atengk.github.io">
     <img src="https://img.shields.io/badge/GitHub%20Pages-在线主页-blue?style=flat-square&logo=github" alt="在线主页" />
   </a>
-  <a href="https://vitepress.dev">
-    <img src="https://img.shields.io/badge/VitePress-1.6.4-646CFF?style=flat-square&logo=vitepress" alt="VitePress" />
+  <a href="https://react.dev">
+    <img src="https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react" alt="React 19" />
+  </a>
+  <a href="https://vite.dev">
+    <img src="https://img.shields.io/badge/Vite-6-646CFF?style=flat-square&logo=vite" alt="Vite 6" />
+  </a>
+  <a href="https://tailwindcss.com">
+    <img src="https://img.shields.io/badge/TailwindCSS-v4-38B2AC?style=flat-square&logo=tailwindcss" alt="Tailwind CSS v4" />
   </a>
   <a href="https://github.com/atengk">
     <img src="https://img.shields.io/badge/Author-Ateng-emerald?style=flat-square" alt="作者" />
@@ -45,35 +51,24 @@
 
 ## 🛠️ 本地开发与构建
 
-本站基于 [VitePress](https://vitepress.dev/) 静态站点生成器构建。
+本站采用现代化纯静态 SPA 架构，基于 **React 19 + Vite 6 + Tailwind CSS v4** 构建。
 
 ```bash
-# 1. 克隆代码仓库
-git clone https://github.com/atengk/atengk.github.io.git
-cd atengk.github.io
+# 1. 安装项目依赖
+pnpm install
 
-# 2. 启动本地开发服务 (支持实时热更新)
-npx vitepress dev
+# 2. 启动本地开发服务 (支持毫秒级 HMR 热更新)
+pnpm dev
 
-# 3. 执行全量静态打包构建
-npx vitepress build
+# 3. 执行全量静态打包构建 (类型校验 + 产物打包)
+pnpm build
 
 # 4. 本地预览打包产物
-npx vitepress preview
+pnpm preview
 ```
-
----
-
-## 🤝 交流与联系
-
-欢迎通过以下渠道进行技术交流、问题反馈与生态探讨：
-
-- 🌟 **GitHub**：[@atengk](https://github.com/atengk)
-- ✉️ **邮箱**：[kongyu2385569970@gmail.com](mailto:kongyu2385569970@gmail.com)
-- 🐧 **QQ 交流群**：[加入【阿腾集团】交流群](https://qm.qq.com/q/aEeS4HY6GI)
 
 ---
 
 ## 📄 开源许可证
 
-本项目基于 [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0) 协议开源。
+本项目基于 [Apache License 2.0](LICENSE) 开源协议分发与维护。
