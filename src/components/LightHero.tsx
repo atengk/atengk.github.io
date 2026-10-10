@@ -8,6 +8,7 @@
  */
 import { Mail } from 'lucide-react'
 import { SITE_METADATA, SOCIAL_LINKS } from '../data/projects'
+import { cn } from '../lib/utils'
 
 function GithubIcon({ className = 'w-4 h-4' }: { className?: string }) {
   return (
@@ -23,7 +24,7 @@ function GithubIcon({ className = 'w-4 h-4' }: { className?: string }) {
 
 export function LightHero() {
   return (
-    <section className="relative text-center max-w-4xl mx-auto space-y-3.5 sm:space-y-4 px-2 sm:px-0">
+    <section className="relative text-center max-w-4xl mx-auto space-y-4 sm:space-y-4.5 px-2 sm:px-0">
       {/* 1. 核心大标题与标语（权威沉稳居中，拉开大字阶视觉层次） */}
       <div className="space-y-2 sm:space-y-2.5">
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight text-slate-900 leading-tight drop-shadow-[0_1px_2px_rgba(0,0,0,0.04)]">
@@ -39,7 +40,7 @@ export function LightHero() {
         {SITE_METADATA.description}
       </p>
 
-      {/* 3. 社交直达入口（经典居中对齐，高质感温润双子星微胶囊） */}
+      {/* 3. 社交直达入口（极细微透边框、柔和阴影与 active:scale-[0.98] 弹性微胶囊） */}
       <div className="flex flex-wrap items-center justify-center gap-2.5 sm:gap-3 pt-0.5">
         {SOCIAL_LINKS.map((item) => (
           <a
@@ -47,7 +48,14 @@ export function LightHero() {
             href={item.link}
             target="_blank"
             rel="noreferrer"
-            className="inline-flex items-center gap-2 px-4 py-1.5 sm:px-4.5 sm:py-2 rounded-full bg-white/95 hover:bg-white text-xs sm:text-sm font-semibold text-slate-700 hover:text-slate-950 border border-slate-200/90 hover:border-slate-300 shadow-2xs hover:shadow-xs active:scale-98 transition-all duration-200"
+            className={cn(
+              "inline-flex items-center gap-2 px-4 py-1.5 sm:px-4.5 sm:py-2 rounded-full",
+              "bg-white text-xs sm:text-sm font-semibold text-slate-700 hover:text-slate-950",
+              "border border-black/[0.06] hover:border-black/15",
+              "shadow-[0_2px_8px_-2px_rgba(15,23,42,0.05),0_1px_2px_rgba(15,23,42,0.03)]",
+              "hover:shadow-[0_8px_16px_-4px_rgba(15,23,42,0.08)]",
+              "hover:-translate-y-0.5 active:scale-[0.98] transition-all duration-200 ease-out"
+            )}
           >
             {item.icon === 'github' && <GithubIcon className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-slate-800" />}
             {item.icon === 'mail' && <Mail className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-slate-600" />}
