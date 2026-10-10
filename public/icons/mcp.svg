@@ -1,0 +1,53 @@
+<svg class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="200" height="200">
+    <defs>
+        <linearGradient id="mcpHubGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#06b6d4"/>
+            <stop offset="50%" stop-color="#0ea5e9"/>
+            <stop offset="100%" stop-color="#3b82f6"/>
+        </linearGradient>
+        <linearGradient id="mcpRingGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#38bdf8"/>
+            <stop offset="100%" stop-color="#6366f1"/>
+        </linearGradient>
+        <linearGradient id="mcpNodeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#67e8f9"/>
+            <stop offset="100%" stop-color="#0284c7"/>
+        </linearGradient>
+    </defs>
+
+    <!-- 协议中枢轨道外环 (Protocol Transport Orbit) -->
+    <circle cx="512" cy="512" r="380" fill="none" stroke="url(#mcpRingGrad)" stroke-width="18" stroke-dasharray="36 24" opacity="0.65"/>
+    <circle cx="512" cy="512" r="310" fill="#0f172a" stroke="#0ea5e9" stroke-width="12" opacity="0.9"/>
+
+    <!-- 协议总线星型连接总线 (Protocol Bus Links) -->
+    <line x1="512" y1="202" x2="512" y2="822" stroke="#38bdf8" stroke-width="16" stroke-linecap="round"/>
+    <line x1="202" y1="512" x2="822" y2="512" stroke="#38bdf8" stroke-width="16" stroke-linecap="round"/>
+    <line x1="293" y1="293" x2="731" y2="731" stroke="#818cf8" stroke-width="12" stroke-linecap="round"/>
+    <line x1="293" y1="731" x2="731" y2="293" stroke="#818cf8" stroke-width="12" stroke-linecap="round"/>
+
+    <!-- 外围 4 大服务矩阵端点 (Outer Protocol Server Nodes) -->
+    <!-- 顶部消息节点 (RocketMQ/Kafka) -->
+    <rect x="456" y="146" width="112" height="112" rx="28" fill="url(#mcpNodeGrad)" stroke="#ffffff" stroke-width="12"/>
+    <circle cx="512" cy="202" r="22" fill="#ffffff"/>
+
+    <!-- 底部运维节点 (K8s/Linux) -->
+    <rect x="456" y="666" width="112" height="112" rx="28" fill="url(#mcpNodeGrad)" stroke="#ffffff" stroke-width="12"/>
+    <circle cx="512" cy="722" r="22" fill="#ffffff"/>
+
+    <!-- 左侧存储节点 (S3/OSS) -->
+    <rect x="146" y="456" width="112" height="112" rx="28" fill="url(#mcpNodeGrad)" stroke="#ffffff" stroke-width="12"/>
+    <circle cx="202" cy="512" r="22" fill="#ffffff"/>
+
+    <!-- 右侧数据库节点 (RDBMS/Redis) -->
+    <rect x="666" y="456" width="112" height="112" rx="28" fill="url(#mcpNodeGrad)" stroke="#ffffff" stroke-width="12"/>
+    <circle cx="722" cy="512" r="22" fill="#ffffff"/>
+
+    <!-- 中央 MCP 协议核心中枢 (Central Model Context Protocol Core) -->
+    <rect x="362" y="362" width="300" height="300" rx="72" fill="url(#mcpHubGrad)" stroke="#ffffff" stroke-width="24"/>
+
+    <!-- 核心双向协议插栓插头图案 (Dual Protocol Connector Prongs) -->
+    <rect x="432" y="420" width="40" height="70" rx="12" fill="#ffffff"/>
+    <rect x="552" y="420" width="40" height="70" rx="12" fill="#ffffff"/>
+    <path d="M422 490 H602 V550 C602 590 572 610 512 610 C452 610 422 590 422 550 Z" fill="#0f172a"/>
+    <circle cx="512" cy="550" r="16" fill="#38bdf8"/>
+</svg>

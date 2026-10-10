@@ -1,0 +1,51 @@
+<svg class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="200" height="200">
+    <defs>
+        <linearGradient id="rkShieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#1d4ed8"/>
+            <stop offset="50%" stop-color="#2563eb"/>
+            <stop offset="100%" stop-color="#1e3a8a"/>
+        </linearGradient>
+        <linearGradient id="rkGoldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#fef08a"/>
+            <stop offset="50%" stop-color="#f59e0b"/>
+            <stop offset="100%" stop-color="#d97706"/>
+        </linearGradient>
+    </defs>
+
+    <!-- 外部考研/认证荣耀光环 (Certification Glory Ring) -->
+    <circle cx="512" cy="512" r="410" fill="none" stroke="url(#rkGoldGrad)" stroke-width="16" stroke-dasharray="32 18" opacity="0.6"/>
+
+    <!-- 软件设计师架构护盾底座 (Software Designer Shield) -->
+    <path d="M512 140 L790 260 V530 C790 710 670 840 512 900 C354 840 234 710 234 530 V260 Z" 
+          fill="url(#rkShieldGrad)" 
+          stroke="#ffffff" 
+          stroke-width="20" 
+          stroke-linejoin="round"/>
+
+    <!-- 护盾内圈金色内沿 (Inner Gold Accent) -->
+    <path d="M512 210 L730 305 V520 C730 665 635 770 512 820 C389 770 294 665 294 520 V305 Z" 
+          fill="none" 
+          stroke="url(#rkGoldGrad)" 
+          stroke-width="12" 
+          stroke-linejoin="round"
+          opacity="0.9"/>
+
+    <!-- 系统架构与设计模式代码符号 (Architecture UML / Class Brackets) -->
+    <!-- 顶部软件设计师学士帽/桂冠核心 -->
+    <polygon points="512,320 660,390 512,460 364,390" fill="url(#rkGoldGrad)"/>
+    <path d="M630 420 V500 C630 500 580 540 512 540 C444 540 394 500 394 500 V420" fill="none" stroke="url(#rkGoldGrad)" stroke-width="12" stroke-linecap="round"/>
+    <!-- 流苏 -->
+    <path d="M660 390 V470" stroke="#fef08a" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="660" cy="480" r="12" fill="#f59e0b"/>
+
+    <!-- 底部软件工程代码与架构矩阵符号 (Code & UML Box) -->
+    <rect x="382" y="600" width="260" height="150" rx="24" fill="#0f172a" stroke="#ffffff" stroke-width="10"/>
+    <!-- 代码花括号 "{ }" 与设计模式类图 -->
+    <path d="M430 635 C410 635 410 655 410 675 C410 685 400 690 390 690 C400 690 410 695 410 705 C410 725 410 745 430 745" fill="none" stroke="#60a5fa" stroke-width="10" stroke-linecap="round"/>
+    <path d="M594 635 C614 635 614 655 614 675 C614 685 624 690 634 690 C624 690 614 695 614 705 C614 725 614 745 594 745" fill="none" stroke="#60a5fa" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="512" cy="675" r="18" fill="url(#rkGoldGrad)"/>
+
+    <!-- 顶端通过认证五角星 (Passing Badge Star) -->
+    <polygon points="512,60 528,102 572,118 528,134 512,176 496,134 452,118 496,102" fill="url(#rkGoldGrad)"/>
+    <circle cx="512" cy="118" r="10" fill="#ffffff"/>
+</svg>

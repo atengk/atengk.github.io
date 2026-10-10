@@ -1,0 +1,50 @@
+<svg class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="200" height="200">
+    <defs>
+        <linearGradient id="ossCubeTopGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#c084fc"/>
+            <stop offset="100%" stop-color="#a855f7"/>
+        </linearGradient>
+        <linearGradient id="ossCubeLeftGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#8b5cf6"/>
+            <stop offset="100%" stop-color="#6d28d9"/>
+        </linearGradient>
+        <linearGradient id="ossCubeRightGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#ec4899"/>
+            <stop offset="100%" stop-color="#be185d"/>
+        </linearGradient>
+        <linearGradient id="ossOrbitGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#f472b6"/>
+            <stop offset="100%" stop-color="#818cf8"/>
+        </linearGradient>
+    </defs>
+
+    <!-- CI/CD 自动化轨道环 (CI/CD Pipeline Orbit) -->
+    <ellipse cx="512" cy="512" rx="420" ry="240" fill="none" stroke="url(#ossOrbitGrad)" stroke-width="16" stroke-dasharray="28 18" transform="rotate(-25 512 512)" opacity="0.6"/>
+
+    <!-- 开源工程立方体 (Open Source Modular Box) -->
+    <!-- 顶面 (Top Face) -->
+    <polygon points="512,180 820,340 512,500 204,340" fill="url(#ossCubeTopGrad)" stroke="#ffffff" stroke-width="20" stroke-linejoin="round"/>
+    
+    <!-- 左立面 (Left Face) -->
+    <polygon points="204,340 512,500 512,830 204,670" fill="url(#ossCubeLeftGrad)" stroke="#ffffff" stroke-width="20" stroke-linejoin="round"/>
+    
+    <!-- 右立面 (Right Face) -->
+    <polygon points="512,500 820,340 820,670 512,830" fill="url(#ossCubeRightGrad)" stroke="#ffffff" stroke-width="20" stroke-linejoin="round"/>
+
+    <!-- 顶面开源分支叉点 (Git Branch Symbol on Top Face) -->
+    <g transform="translate(0, -20)">
+        <circle cx="512" cy="310" r="28" fill="#ffffff"/>
+        <circle cx="430" cy="370" r="22" fill="#ffffff"/>
+        <circle cx="594" cy="370" r="22" fill="#ffffff"/>
+        <path d="M430 370 Q512 370 512 310" fill="none" stroke="#ffffff" stroke-width="12" stroke-linecap="round"/>
+        <path d="M594 370 Q512 370 512 310" fill="none" stroke="#ffffff" stroke-width="12" stroke-linecap="round"/>
+    </g>
+
+    <!-- 自动化流水线流光节点 (CI/CD Nodes on Orbit) -->
+    <circle cx="160" cy="360" r="32" fill="#ec4899" stroke="#ffffff" stroke-width="10"/>
+    <circle cx="864" cy="664" r="32" fill="#8b5cf6" stroke="#ffffff" stroke-width="10"/>
+
+    <!-- 顶端开源旗舰星标 (Apex Open Source Star) -->
+    <polygon points="512,60 528,102 572,118 528,134 512,176 496,134 452,118 496,102" fill="#f472b6"/>
+    <circle cx="512" cy="118" r="12" fill="#ffffff"/>
+</svg>

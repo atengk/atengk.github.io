@@ -1,0 +1,42 @@
+<svg class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="200" height="200">
+    <defs>
+        <linearGradient id="clipBoardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#1e293b"/>
+            <stop offset="100%" stop-color="#0f172a"/>
+        </linearGradient>
+        <linearGradient id="clipPaperGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#2563eb"/>
+            <stop offset="50%" stop-color="#0284c7"/>
+            <stop offset="100%" stop-color="#10b981"/>
+        </linearGradient>
+        <linearGradient id="clipMetallic" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#93c5fd"/>
+            <stop offset="100%" stop-color="#3b82f6"/>
+        </linearGradient>
+    </defs>
+
+    <!-- 剪贴板底板 (Clipboard Board Chassis) -->
+    <rect x="190" y="140" width="644" height="780" rx="64" fill="url(#clipBoardGrad)" stroke="#38bdf8" stroke-width="18"/>
+
+    <!-- 内部置入的纸张记录页面 (Document Paper Surface) -->
+    <rect x="250" y="240" width="524" height="620" rx="36" fill="url(#clipPaperGrad)"/>
+
+    <!-- 剪贴板代码/文本历史条目 (History Text Rows) -->
+    <rect x="310" y="360" width="280" height="36" rx="18" fill="#ffffff"/>
+    <rect x="620" y="360" width="90" height="36" rx="18" fill="#a7f3d0"/>
+
+    <rect x="310" y="440" width="400" height="36" rx="18" fill="#ffffff" opacity="0.95"/>
+    <rect x="310" y="520" width="340" height="36" rx="18" fill="#ffffff" opacity="0.95"/>
+    <rect x="310" y="600" width="220" height="36" rx="18" fill="#a7f3d0"/>
+
+    <!-- 底部极速回填毫秒感徽标 (Quick Paste Status Pill) -->
+    <rect x="310" y="680" width="400" height="110" rx="28" fill="#0f172a" stroke="#ffffff" stroke-width="8"/>
+    <path d="M370 735 L420 735" stroke="#10b981" stroke-width="14" stroke-linecap="round"/>
+    <path d="M460 715 L490 735 L460 755" fill="none" stroke="#38bdf8" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="520" y="720" width="140" height="30" rx="15" fill="#10b981"/>
+
+    <!-- 顶部金属固定夹具 (Top Mechanical Clamp) -->
+    <path d="M382 120 H642 V190 C642 215 620 236 592 236 H432 C404 236 382 215 382 190 Z" fill="url(#clipMetallic)" stroke="#ffffff" stroke-width="16"/>
+    <!-- 顶部挂孔 (Hanger Loop) -->
+    <path d="M462 120 V70 C462 50 480 34 512 34 C544 34 562 50 562 70 V120" fill="none" stroke="#93c5fd" stroke-width="20" stroke-linecap="round"/>
+</svg>

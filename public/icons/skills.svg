@@ -1,0 +1,61 @@
+<svg class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="200" height="200">
+    <defs>
+        <linearGradient id="skillsPrimaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#fbbf24"/>
+            <stop offset="50%" stop-color="#f59e0b"/>
+            <stop offset="100%" stop-color="#ef4444"/>
+        </linearGradient>
+        <linearGradient id="skillsNodeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#fef08a"/>
+            <stop offset="100%" stop-color="#f59e0b"/>
+        </linearGradient>
+    </defs>
+
+    <!-- 技能生态外围旋转能量阵 (Skills Energy Lattice) -->
+    <polygon points="512,120 840,300 840,724 512,904 184,724 184,300" 
+             fill="none" 
+             stroke="#f59e0b" 
+             stroke-width="16" 
+             stroke-dasharray="32 20" 
+             opacity="0.5"/>
+
+    <!-- 技能分叉拓展树枝骨架 (Skill Tree Branches) -->
+    <line x1="512" y1="512" x2="512" y2="230" stroke="#f59e0b" stroke-width="24" stroke-linecap="round"/>
+    <line x1="512" y1="512" x2="756" y2="371" stroke="#f59e0b" stroke-width="24" stroke-linecap="round"/>
+    <line x1="512" y1="512" x2="756" y2="653" stroke="#f59e0b" stroke-width="24" stroke-linecap="round"/>
+    <line x1="512" y1="512" x2="512" y2="794" stroke="#f59e0b" stroke-width="24" stroke-linecap="round"/>
+    <line x1="512" y1="512" x2="268" y2="653" stroke="#f59e0b" stroke-width="24" stroke-linecap="round"/>
+    <line x1="512" y1="512" x2="268" y2="371" stroke="#f59e0b" stroke-width="24" stroke-linecap="round"/>
+
+    <!-- 6 大外延技能模块端点 (Skill Expansion Pods) -->
+    <!-- 1. Anthropic 官方规范 -->
+    <circle cx="512" cy="230" r="56" fill="url(#skillsNodeGrad)" stroke="#ffffff" stroke-width="14"/>
+    <!-- 2. Matt Pocock 技能套件 -->
+    <circle cx="756" cy="371" r="56" fill="url(#skillsNodeGrad)" stroke="#ffffff" stroke-width="14"/>
+    <!-- 3. Superpowers 自动化交付 -->
+    <circle cx="756" cy="653" r="56" fill="url(#skillsNodeGrad)" stroke="#ffffff" stroke-width="14"/>
+    <!-- 4. Spec Kit 规格驱动 -->
+    <circle cx="512" cy="794" r="56" fill="url(#skillsNodeGrad)" stroke="#ffffff" stroke-width="14"/>
+    <!-- 5. OpenSpec 规范标准 -->
+    <circle cx="268" cy="653" r="56" fill="url(#skillsNodeGrad)" stroke="#ffffff" stroke-width="14"/>
+    <!-- 6. UI/UX Pro Max 智能设计 -->
+    <circle cx="268" cy="371" r="56" fill="url(#skillsNodeGrad)" stroke="#ffffff" stroke-width="14"/>
+
+    <!-- 端点内部核心白点 -->
+    <circle cx="512" cy="230" r="20" fill="#ffffff"/>
+    <circle cx="756" cy="371" r="20" fill="#ffffff"/>
+    <circle cx="756" cy="653" r="20" fill="#ffffff"/>
+    <circle cx="512" cy="794" r="20" fill="#ffffff"/>
+    <circle cx="268" cy="653" r="20" fill="#ffffff"/>
+    <circle cx="268" cy="371" r="20" fill="#ffffff"/>
+
+    <!-- 中央核心母体晶核 (Central Master Skill Core) -->
+    <rect x="372" y="372" width="280" height="280" rx="64" 
+          fill="url(#skillsPrimaryGrad)" 
+          stroke="#ffffff" 
+          stroke-width="24" 
+          transform="rotate(45 512 512)"/>
+
+    <!-- 中央纯白极客星芒 (Central Star Spark) -->
+    <polygon points="512,390 540,480 634,512 540,544 512,634 484,544 390,512 484,480" fill="#ffffff"/>
+</svg>
