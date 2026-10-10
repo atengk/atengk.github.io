@@ -61,11 +61,6 @@ export const SOCIAL_LINKS: SocialLink[] = [
     link: `mailto:${SITE_METADATA.email}`,
     icon: 'mail',
   },
-  {
-    name: 'QQ',
-    link: SITE_METADATA.qqGroup,
-    icon: 'message-circle',
-  },
 ]
 
 export const PROJECTS: ProjectItem[] = [
