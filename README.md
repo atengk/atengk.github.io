@@ -1,7 +1,7 @@
 # 阿腾技术网站 (Ateng Matrix)
 
 <p align="center">
-  <strong>⚡ 全栈架构决策矩阵 · 工业级 AI 工程底座 · 纯白天幕视觉门户</strong>
+  <strong>⚡ 全栈架构决策矩阵 · 工业级 AI 工程底座</strong>
 </p>
 
 <p align="center">
@@ -16,9 +16,6 @@
   </a>
   <a href="https://tailwindcss.com">
     <img src="https://img.shields.io/badge/TailwindCSS-v4-38B2AC?style=flat-square&logo=tailwindcss" alt="Tailwind CSS v4" />
-  </a>
-  <a href="https://motion.dev">
-    <img src="https://img.shields.io/badge/Motion-12-FF4154?style=flat-square&logo=framer" alt="Motion 12" />
   </a>
   <a href="https://www.typescriptlang.org">
     <img src="https://img.shields.io/badge/TypeScript-5.7-3178C6?style=flat-square&logo=typescript" alt="TypeScript 5.7" />
@@ -35,14 +32,15 @@
 
 ## 🌟 核心设计与视觉体验
 
-阿腾技术网站（Ateng Matrix）是一套专为极客开发者量身定制的**纯白现代极客风（Light Tech 2026）**开源个人工程门户与决策中枢。突破传统黑灰暗黑风的刻板印象，以明亮通透的纯白天幕呈现顶级工业质感：
+阿腾技术网站（Ateng Matrix）是一套专为极客开发者量身定制的**工业级极简现代风（Light Tech Minimalist）**开源个人工程门户与决策中枢。秉持“0 额外动画运行时负担、纯粹高雅排版与极致性能”的设计哲学，以静谧通透的纯白工程底色呈现沉浸式交互质感：
 
-- 🌊 **60FPS 满帧漫反射极光天幕**：依托纯原生 CSS `@keyframes` 与 GPU 硬件渲染层构建三维液态流体色浪，彻底告别死板网格与突兀硬线条，呈现丝滑纯净的科技沉浸感。
-- 🪐 **轻量 Canvas 物理引力粒子场**：集成微物理引擎驱动的空气感浮动粒子，动态捕捉指针位置并自适应三端阶梯式功耗（手机 14 点节能省电，电脑 28 点全景微动）。
-- 💎 **3D 透视陀螺仪与专属环形激光**：运用 `(hover: hover) and (pointer: fine)` 高精度指针环境感知，为核心旗舰卡片装配专属语义渐变环形激光（Border Beam）与动态角标微光，触控端自动平滑降级为 iOS 原生微弹反馈。
-- 📐 **三端治愈级自适应网格**：
-  - **电脑端（≥ 1024px）**：双层 3 列黄金视界，层次严谨分明；
-  - **平板端（768px ~ 1023px）**：核心 6 项完美闭环为 2 列 × 3 行对称网格，次要生态末项自适应双列通栏（`col-span-2`），彻底消灭尾部空缺；
+- 🕸️ **微弱高雅网格背景（Subtle Grid）**：纯 CSS 实现 32px × 32px 极细微几何网格纹理，叠加顶部向下方柔和扩散的径向遮罩（`mask-image: radial-gradient(...)`），自然渐隐淡出，营造严谨而空灵的工程纵深。
+- 🌅 **多层顶部氛围漫射光晕（Ambient Glow）**：由轻柔多层径向渐变（`radial-gradient`）与深邃 Indigo / Sky 色彩弥散光晕构建，无需任何复杂动效即可烘托出轻盈通透的顶部视觉重心。
+- 💎 **工业级微交互与微透质感**：纯白底板卡片融合极细微透边框（`border-black/[0.06]`）与扩散柔和阴影，结合平滑位移（`hover:-translate-y-1`）、外链位移箭头与触控弹性手感（`active:scale-[0.98]`），提供丝滑跟手的触感反馈。
+- 🏷️ **统一收敛的低饱和科技胶囊 Tag**：全面收敛杂乱色彩，核心与生态卡片均采用专属语义化低饱和微色彩徽章与灰阶科技胶囊 Tag，信息密度舒展饱满，杜绝文本单行截断与视觉疲劳。
+- 📐 **三端黄金自适应网格**：
+  - **电脑端（≥ 1024px）**：双层 3 列黄金视界，在中屏 `max-w-6xl` 与宽屏 `xl:max-w-7xl` 版心下舒展大气；
+  - **平板端（768px ~ 1023px）**：核心 6 项闭环为 2 列 × 3 行对称网格，次要生态末项自适应双列通栏（`col-span-2`），彻底消灭尾部空缺；
   - **移动端（< 768px）**：单列弹性堆叠，原生适配 iOS 底部安全区（`safe-area-inset-bottom`）。
 
 ---
@@ -53,26 +51,26 @@
 
 ### 1. 核心架构矩阵（6 大核心工程）
 
-| 平台代号 | 矩阵项目 | 领域定位 | 核心能力与技术栈 | 在线直达 |
-| :---: | :--- | :--- | :--- | :--- |
-| `01` | **全栈技术选型矩阵** | 顶层架构决策 | 全端全平台技术选型收敛 · 架构决策与权衡 · 工业级技术基线 | [查看蓝图](https://atengk.github.io/fullstack-matrix/) |
-| `02` | **AI Agent 智能体** | AI 智能体生态 | 生产级自主智能体体系 · SDD 规范驱动落地基座 · 智能体编排 | [探索智能体](https://atengk.github.io/Ateng-Agent/) |
-| `03` | **MCP 服务矩阵** | AI 上下文协议 | Model Context Protocol · 企业级中间件与云原生协议中枢 | [进入协议中心](https://atengk.github.io/Ateng-MCP/) |
-| `04` | **Linux 运维** | 云原生基础设施 | 容器化与自动化编排 · 系统运维实战库 · 基础设施代码化 | [进入运维文档](https://atengk.github.io/linux/) |
-| `05` | **Java 后端** | 企业级后端工程 | 微服务分布式架构 · 企业级工程深度沉淀 · Spring Boot & Cloud | [查看后端技术](https://atengk.github.io/java/) |
-| `06` | **Vue 前端** | 现代前端工程 | 现代前端工程化演进 · 全平台表现层解决方案 · TypeScript | [探索前端工程](https://atengk.github.io/vue/) |
+| 平台代号 | 矩阵项目 | 专属角标 | 领域定位 | 核心能力与技术栈 | 在线直达 |
+| :---: | :--- | :---: | :--- | :--- | :--- |
+| `01` | **全栈技术选型矩阵** | `旗舰核心` | 顶层架构决策 | 工业级技术栈分层收敛 · 双生架构矩阵 · 架构决策与权衡 | [查看决策蓝图](https://atengk.github.io/fullstack-matrix/) |
+| `02` | **AI Agent 智能体** | `AI 标杆` | AI 智能体生态 | 生产级自主智能体 · SDD 规范落地基座 · 智能体与工具编排 | [探索 AI 智能体](https://atengk.github.io/Ateng-Agent/) |
+| `03` | **MCP 服务矩阵** | `协议中枢` | AI 上下文协议 | Model Context Protocol · 企业级中间件与云原生协议中枢 | [进入协议中心](https://atengk.github.io/Ateng-MCP/) |
+| `04` | **Linux 运维** | `云原生底座` | 云原生基础设施 | 容器化与自动化编排 · 系统运维实践库 · Linux/Docker/K8s | [进入运维文档](https://atengk.github.io/linux/) |
+| `05` | **Java 后端** | `后端工程` | 企业级后端工程 | 微服务分布式架构 · 企业级工程深度沉淀 · Spring Boot & Cloud | [查看后端技术](https://atengk.github.io/java/) |
+| `06` | **Vue 前端** | `前端工程` | 现代前端工程化 | 现代前端工程化 · 全平台表现层解决方案 · TypeScript + Vue 3 | [探索前端工程](https://atengk.github.io/vue/) |
 
 ### 2. 开源生态与精选工具（7 项周边工程）
 
-| 序号 | 项目名称 | 领域归属 | 核心能力与技术栈 | 在线直达 |
-| :---: | :--- | :--- | :--- | :--- |
-| `07` | **Skills 技能中心** | AI 技能规范 | Anthropic 官方标准规范 · Matt Pocock 技能集 · 规范驱动研发 (SDD) | [获取技能库](https://github.com/atengk/skills) |
-| `08` | **工程化框架技术网站** | 企业级脚手架 | RuoYi-Vue-Plus · RuoYi-Cloud-Plus · RuoYi-Plus-UI 全套架构实践 | [查看脚手架](https://atengk.github.io/project/) |
-| `09` | **在线工具箱** | 实用开发辅助 | 现代 Web 纯前端开箱即用工具箱 · 散列加解密 · 编解码转换 | [打开工具箱](https://atengk.github.io/tools/) |
-| `10` | **clip 剪贴板管理器** | 桌面级效率工具 | Tauri v2 + Rust + React · 毫秒级回填 & 离线 OCR · 极低内存常驻 | [查看桌面应用](https://github.com/atengk/clip) |
-| `11` | **VitePress Zenith** | 现代研发文档模版 | 顶配 VitePress 架构 · 命令搜索中心 · Twoslash + 离线 PWA 增强 | [体验旗舰模版](https://atengk.github.io/vitepress-zenith/) |
-| `12` | **OSS 开源工程模版** | 工业级通用模版 | GitHub 最佳实践模板 · CI/CD 自动化流水线 · 多环境发版规范 | [获取开源模版](https://github.com/atengk/oss-template) |
-| `13` | **软件设计师备考指南** | 专业认证知识库 | 计算机中级软考 · 9 大考纲精要与历年真题剖析 · 核心算法归纳 | [开启备考指南](https://atengk.github.io/ruankao-software-designer/) |
+| 序号 | 项目名称 | 专属角标 | 领域归属 | 核心能力与技术栈 | 在线直达 |
+| :---: | :--- | :---: | :--- | :--- | :--- |
+| `07` | **Skills 技能中心** | `开源仓库` | AI 技能规范 | 基于规范驱动开发 (SDD) 的智能体技能体系 · Anthropic 官方规范 | [获取技能仓库](https://github.com/atengk/skills) |
+| `08` | **clip 剪贴板历史管理器** | `桌面端应用` | 桌面级效率工具 | 轻量极速的跨平台桌面生产力工具 · Tauri v2 + Rust + React · 毫秒级回填 | [查看桌面应用](https://github.com/atengk/clip) |
+| `09` | **工程化脚手架** | `企业脚手架` | 企业级脚手架 | 企业级开箱即用中后台体系架构实践 · RuoYi 全套架构落地 | [查看框架实践](https://atengk.github.io/project/) |
+| `10` | **在线工具箱** | `实用工具` | 实用开发辅助 | 高频实用开发调试与格式转换工具箱 · 纯前端开箱即用 · 散列加解密 | [打开实用工具](https://atengk.github.io/tools/) |
+| `11` | **VitePress Zenith 旗舰模板** | `开箱模板` | 现代研发文档模版 | 极具美感与功能深度的 Docs-as-Code 文档基座 · 顶配 VitePress 架构 | [体验旗舰模板](https://atengk.github.io/vitepress-zenith/) |
+| `12` | **OSS 开源工程模板** | `开源模板` | 工业级通用模版 | 工业级 GitHub 开源规范与 CI/CD 自动化流水线基线 · 自动化发版 | [获取开源模版](https://github.com/atengk/oss-template) |
+| `13` | **软件设计师备考指南** | `备考知识库` | 专业认证知识库 | 软考中级知识体系提炼与考题攻坚指南 · 9 大考纲精要与题库排错 | [开启系统备考](https://atengk.github.io/ruankao-software-designer/) |
 
 ---
 
@@ -86,15 +84,15 @@ atengk.github.io/
 │   └── hero.svg            # Hero 背景装饰矢量
 ├── src/
 │   ├── components/         # 表现层原子与业务组件
-│   │   ├── LightHero.tsx       # 纯白天幕 Hero 主视觉区（标题掠影+品牌徽标+动态数据）
-│   │   ├── LightBentoGrid.tsx  # 三端自适应 Bento 栅格网格（核心矩阵 + 生态工具）
-│   │   ├── TiltCard.tsx        # 3D 物理陀螺仪微透视容器（支持 Border Beam 环形流光）
-│   │   └── ParticleCanvas.tsx  # Canvas 物理引力背景微动粒子场
+│   │   ├── LightHero.tsx       # 极简现代 Hero 首屏（居中黄金排版 + 双子星社交胶囊）
+│   │   └── LightBentoGrid.tsx  # 三端自适应 Bento 栅格网格（核心架构矩阵 + 开源生态与工具）
 │   ├── data/               # 领域数据驱动模型
 │   │   └── projects.ts         # 全网项目元数据集中注册表 (PROJECTS 数组)
-│   ├── styles/
-│   │   └── globals.css         # 全局样式（Tailwind v4 主题/流体极光 Keyframes）
-│   ├── App.tsx             # 应用主入口（装配粒子背景、极光天幕与主视口容器）
+│   ├── lib/                # 工具函数库
+│   │   └── utils.ts            # Tailwind 类名合并工具方法 (cn)
+│   ├── styles/             # 样式定义
+│   │   └── globals.css         # 全局样式（Tailwind v4 主题与工程网格定义）
+│   ├── App.tsx             # 应用主入口（微弱网格背景、顶部漫射光晕与黄金版心容器）
 │   └── main.tsx            # React 根挂载入口
 ├── index.html              # HTML 模板入口
 ├── package.json            # 依赖声明与任务指令配置
@@ -127,33 +125,34 @@ atengk.github.io/
   id: 'my-new-tool',                         // 唯一标识符（字母/数字/连字符）
   title: '云原生网关控制台',                     // 卡片主标题
   tagline: '高性能 API 网关动态路由与流量治理平台', // 简短一句话描述（15~25字最佳）
-  description: '支持多租户隔离、动态流量灰度切流与实时指标观测的云原生网关解决方案。', // 完整背景描述
+  tags: ['Gateway', '云原生', 'Go'],         // 关键技术标签列表（推荐 2~3 个）
   icon: '/icons/my-new-tool.svg',            // 图标相对路径（存放在 public/icons/ 下）
   link: 'https://github.com/atengk/gateway', // 点击跳转的完整外部或内部链接
-  category: 'tool',                          // 分类属性: 'core' | 'ecosystem' | 'tool' | 'template' | 'study'
-  tags: ['Gateway', '云原生', 'Go'],         // 关键技术标签列表（推荐 2~3 个）
+  linkText: '查看网关控制台',                 // 外链引导按钮文案
+  category: 'tools',                         // 分类: 'architecture' | 'ai' | 'engineering' | 'tools' | 'learning' | 'templates'
   badge: '新特性',                           // 可选：右上角展示的胶囊角标文字
+  tier: 3,                                   // Bento Grid 展示层级权重（1 为超大卡片，2 为核心卡片，3 为轻量卡片）
 },
 ```
 
 ---
 
-### 分层 2：升级/新增核心架构旗舰卡片（专属环形流光与视觉定制）
+### 分层 2：升级/新增核心架构旗舰卡片（专属低饱和微色与微交互定制）
 
-若新项目具备战略地位，需展示在首屏最显眼的「核心架构矩阵」中（配有 3D 陀螺仪透视倾斜、环形激光流动与右上角氛围微光），请执行以下两步：
+若新项目具备战略地位，需展示在首屏最显眼的「核心架构矩阵」中（配有 48px 专属大底衬图标、低饱和度专属徽章与悬浮微光光晕），请执行以下两步：
 
 #### 步骤说明：
 
 1. **在数据注册表中声明**：
-   - 参考【分层 1】，在 `./src/data/projects.ts` 中注册项目数据，设定唯一的 `id`（例如 `id: 'gateway-core'`）。
+   - 参考【分层 1】，在 `./src/data/projects.ts` 中注册项目数据，设定唯一的 `id`（例如 `id: 'gateway-core'`），并将 `tier` 设为 `1` 或 `2`。
 
 2. **在栅格组件中注册主题与 ID**：
    - 打开 `./src/components/LightBentoGrid.tsx`；
-   - 在 `coreIds` 数组中加入该项目的 ID：
+   - 在 `CORE_PROJECT_IDS` 数组中加入该项目的 ID：
 
    ```typescript
    // src/components/LightBentoGrid.tsx
-   const coreIds = [
+   const CORE_PROJECT_IDS = [
      'fullstack-matrix',
      'ateng-agent',
      'ateng-mcp',
@@ -161,24 +160,20 @@ atengk.github.io/
      'java-backend',
      'vue-frontend',
      'gateway-core', // 新增的核心卡片 ID
-   ]
+   ] as const
    ```
 
-   - 在 `CORE_THEMES` 对象中配置专属的色彩语义系统：
+   - 在 `CARD_THEMES` 对象中配置专属的低饱和微色主题（遵循 `ThemeConfig` 接口规范）：
 
    ```typescript
    // src/components/LightBentoGrid.tsx
-   const CORE_THEMES: Record<string, CoreTheme> = {
-     // ... 既有卡片主题 ...
+   const CARD_THEMES: Record<string, ThemeConfig> = {
+     // ... 既有核心卡片主题 ...
      'gateway-core': {
-       borderBeam: true, // 启用 360° 环形激光流光
-       beamGradient: 'conic-gradient(from 0deg, transparent 0deg, #06b6d4 90deg, #3b82f6 180deg, #6366f1 270deg, transparent 360deg)', // 激光颜色流动梯度
-       iconBg: 'bg-cyan-50/90 border-cyan-200/80', // 图标背景浅色与边框
-       badgeStyle: 'bg-cyan-50 text-cyan-700 border border-cyan-200/80', // 胶囊角标风格
-       hoverText: 'group-hover:text-cyan-600', // 鼠标悬停时的文字渐变响应色
-       linkText: 'text-cyan-600',              // 底部「访问 →」引导色
-       ambientGlow: 'from-cyan-500/[0.18] via-blue-500/[0.08] to-transparent', // 卡片右上角专属弥散氛围色
-       tagStyle: 'bg-cyan-50/80 text-cyan-700 border-cyan-200/60', // 标签胶囊配色
+       iconBg: 'bg-cyan-50/70 border-cyan-100/60', // 品牌图标底衬微色与边框
+       badgeStyle: 'bg-cyan-50/80 text-cyan-700/90 border-cyan-200/50', // 专属低饱和度科技徽章样式
+       hoverBorder: 'hover:border-cyan-200/70', // 悬浮时微光边框
+       hoverShadow: 'hover:shadow-[0_16px_32px_-8px_rgba(6,182,212,0.12),0_4px_12px_-2px_rgba(15,23,42,0.03)]', // 悬浮时柔和漫射阴影
      },
    }
    ```
@@ -201,18 +196,18 @@ atengk.github.io/
     * 博客精选与技术动态展示 Section 组件。
     *
     * @author Ateng
-    * @since 2026-10-10
+    * @since 2026-10-12
     */
    export function BlogSection() {
      return (
-       <section className="space-y-4">
+       <section className="space-y-4 sm:space-y-4.5">
          <div className="flex items-center justify-between">
-           <h2 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight">
+           <h2 className="flex items-center text-base sm:text-lg font-bold text-slate-900 tracking-tight">
+             <span className="w-1.5 h-3.5 rounded-full bg-slate-400 mr-2.5 inline-block" />
              最新技术洞察
            </h2>
-           <span className="text-xs text-slate-400 font-mono">ARTICLES & INSIGHTS</span>
          </div>
-         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3.5 sm:gap-4.5 lg:gap-5">
            {/* 自定义业务卡片内容 */}
          </div>
        </section>
@@ -227,16 +222,29 @@ atengk.github.io/
    // src/App.tsx
    import { LightHero } from './components/LightHero'
    import { LightBentoGrid } from './components/LightBentoGrid'
-   import { BlogSection } from './components/BlogSection' // 引入新模块
+   import { BlogSection } from './components/BlogSection' // 引入新业务模块
 
    export default function App() {
      return (
-       <div className="...">
-         {/* 背景粒子与流体极光 */}
-         <ParticleCanvas />
-         <div className="..." />
+       <div className="relative min-h-screen bg-slate-50 text-slate-900 flex flex-col selection:bg-slate-200 selection:text-slate-900 overflow-x-hidden">
+         {/* 1. 微弱高雅的网格背景（顶部向下方柔和淡出） */}
+         <div
+           className="pointer-events-none absolute inset-0 bg-subtle-grid [mask-image:radial-gradient(ellipse_80%_60%_at_50%_0%,#000_40%,transparent_100%)] opacity-70"
+           aria-hidden="true"
+         />
 
-         <main className="relative z-10 max-w-7xl mx-auto px-4 ... space-y-8 sm:space-y-10 lg:space-y-11">
+         {/* 2. 顶部氛围漫射光晕（多层轻柔径向光晕） */}
+         <div
+           className="pointer-events-none absolute inset-x-0 top-0 h-[480px] bg-[radial-gradient(ellipse_75%_55%_at_50%_0%,rgba(99,102,241,0.06),transparent_75%)]"
+           aria-hidden="true"
+         />
+         <div
+           className="pointer-events-none absolute top-[-80px] left-1/2 -translate-x-1/2 w-[600px] h-[300px] bg-gradient-to-b from-indigo-200/25 via-sky-100/15 to-transparent blur-3xl rounded-full"
+           aria-hidden="true"
+         />
+
+         {/* 3. 沉浸式主界面内容（响应式黄金版心：中屏 max-w-6xl，宽屏 xl:max-w-7xl） */}
+         <main className="relative z-10 flex-1 max-w-6xl xl:max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 sm:pt-10 lg:pt-12 pb-[max(3.5rem,env(safe-area-inset-bottom))] w-full space-y-8 sm:space-y-10 lg:space-y-12">
            <LightHero />
            <LightBentoGrid />
            <BlogSection /> {/* 顺畅挂载新模块，继承页面全局间距律动 */}
@@ -274,11 +282,11 @@ pnpm preview
 
 ## 🚢 自动化部署与持续交付
 
-项目基于 **GitHub Actions** 实现纯静态 SPA 的全自动化部署：
+项目基于 **GitHub Actions** 实现纯静态 SPA 的全自动化构件部署（CI/CD 流水线位于 `.github/workflows/deploy.yml`）：
 
-1. 每次向 `main` 分支执行推送后，自动触发部署工作流；
-2. 自动化 Runner 执行依赖拉取、环境检查与 `pnpm build` 打包；
-3. 将产物目录（`dist/`）全量同步推流至 `gh-pages` 分支，由 GitHub Pages 权威边缘节点提供 CDN 加速分发。
+1. 每次向 `main` 分支执行推送或手动触发（`workflow_dispatch`）后，自动触发 Pages 部署流水线；
+2. 自动化 Runner 完成 Node.js 22 环境配置、依赖缓存挂载并执行 `pnpm install` 与 `pnpm build` 打包；
+3. 基于官方 `actions/upload-pages-artifact@v3` 与 `actions/deploy-pages@v4`，直接将静态打包产物目录（`dist/`）无缝发布至 GitHub Pages 权威边缘节点，实现即时全球 CDN 分发。
 
 ---
 
