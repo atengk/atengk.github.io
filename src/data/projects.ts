@@ -220,4 +220,16 @@ export const PROJECTS: ProjectItem[] = [
     category: 'learning',
     tier: 3,
   },
+  {
+    id: 'sxd-bot',
+    title: 'sxd-bot 神仙道助手',
+    tagline: '基于逆向二进制长连接协议的无头自动化工具与 Web 控制台',
+    tags: ['Python + FastAPI', 'MCP 抓包与逆向', '无头长连接协议'],
+    icon: '/icons/bot.svg',
+    link: 'https://github.com/atengk/sxd-bot',
+    linkText: '查看自动化工具',
+    badge: '脱机助手',
+    category: 'tools',
+    tier: 3,
+  },
 ]

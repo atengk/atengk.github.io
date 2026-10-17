@@ -197,11 +197,11 @@ export function LightBentoGrid() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3.5 sm:gap-4.5 lg:gap-5">
           {secondaryProjects.map((p, idx) => {
-            const isLastInTablet = idx === secondaryProjects.length - 1
+            const isLastOddInTablet = secondaryProjects.length % 2 === 1 && idx === secondaryProjects.length - 1
             return (
               <div
                 key={p.id}
-                className={cn('h-full', isLastInTablet && 'md:col-span-2 lg:col-span-1')}
+                className={cn('h-full', isLastOddInTablet && 'md:col-span-2 lg:col-span-1')}
               >
                 <a
                   href={p.link}
